@@ -1,0 +1,49 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
+}
+
+.weclome-page>.container {
+    height: 75vh;
+}
+
+#signInBtn:hover {
+    color: #fff;
+}
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1 {
+    color: #17a2b8;
+}
+
+.m-auto {
+    margin: auto !important;
+}
+
+.p-5 {
+    padding: 3rem !important;
+}
+
+input,
+textarea {
+    color: #fff !important;
+    background-color: transparent !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+#navbarSupportedContent {
+    justify-content: flex-end;
+    display: flex;
+}
+
+#logoutBtn {
+    border: 1px solid #ffc107;
+}
